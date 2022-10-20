@@ -29,12 +29,16 @@ body{
 .p-relative{
     position: relative;
 }
+
+.allineamento-inline-block{
+    display: inline-block;
+}
 /* FINE GENERAL */
 
 /* MAIN */
 main{
     min-width: 27.4rem;
-    height: 85vh;
+    height: calc(100vh - 4rem);
     overflow: auto;
 }
 
@@ -71,6 +75,8 @@ main article{
     position: absolute;
     right: 1%;
     top: 2%;
+    position: fixed;
+    z-index: 2;
 }
 
 .speaker-view{
@@ -91,14 +97,38 @@ main article{
 /* FINE STRUMENTI IN ALTO A DESTRA */
 
 /* FOOTER */
-footer{
-    
-}
-
 footer section{
     width: 100%;
-    background-color: aqua;
-    height: 15vh;
+    background-color: #222222;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.video-audio{
+    background-color: yellow;
+    width: 15%;
+    color: white;
+    font-size: 1.4rem;
+}
 
+.video{
+    text-align: center;
+}
+
+.microfono{
+    text-align: center;
+}
+
+.freccia-su{
+    align-items: center;
+}
+
+.strumenti-bottom{
+    background-color: green;
+}
+
+.call-end{
+    background-color: red;
+    width: 15%;
+}
