@@ -24,6 +24,15 @@ body{
     align-items: center;
 }
 
+.p-relative{
+    position: relative;
+}
+
+/* MAIN */
+main{
+    min-width: 27.4rem;
+}
+
 main section{
     width: 90%;
     flex-wrap: wrap;
@@ -31,10 +40,51 @@ main section{
 }
 
 main article{
-    background-color: blue;
     width: 12rem;
     height: 7rem;
     margin: .3rem .1rem;
+    position: relative;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    background-position: center;
 }
-    
+
+.name-position{
+    background-color:rgba(130, 130, 130, .5);
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    font-size: 1rem;
+    padding: .2rem .3rem;
+}
+/* FINE MAIN */
+
+/* STRUMENTI IN ALTO A DESTRA */
+.strumenti-top{
+    position: absolute;
+    right: 1%;
+    top: 2%;
+}
+
+.speaker-view{
+    display: inline-block;
+    background-color:rgba(130, 130, 130, .5);
+    color: white;
+    padding: .3rem .3rem;
+    border-radius: .3rem;
+}
+
+.freccie{
+    display: inline-block;
+    background-color:rgba(130, 130, 130, .5);
+    color: white;
+    padding: .3rem .3rem;
+    border-radius: .3rem;
+}
+/* FINE STRUMENTI IN ALTO A DESTRA */
+
+/* FOOTER */
+
+
 
