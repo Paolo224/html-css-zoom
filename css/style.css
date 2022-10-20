@@ -4,14 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* FINE RESET */
 
+/* GENERAL */
 body{
     background-color: black;
 }
 
 .default{
     margin: 0 auto;
-    width: 90%;
+    width: 95%;
 }
 
 .flex{
@@ -27,21 +29,24 @@ body{
 .p-relative{
     position: relative;
 }
+/* FINE GENERAL */
 
 /* MAIN */
 main{
     min-width: 27.4rem;
+    height: calc(80vh - 4.5rem);
 }
 
 main section{
     width: 90%;
     flex-wrap: wrap;
-    padding-top: 5rem;
+    padding-top: 4.5rem;
+    
 }
 
 main article{
     width: 12rem;
-    height: 7rem;
+    height: 6.6rem;
     margin: .3rem .1rem;
     position: relative;
     background-image: url(https://picsum.photos/seed/picsum/200/300);
@@ -85,6 +90,14 @@ main article{
 /* FINE STRUMENTI IN ALTO A DESTRA */
 
 /* FOOTER */
+footer{
+    
+}
 
+footer section{
+    width: 100%;
+    background-color: aqua;
+    height: 10vh;
+}
 
 
