@@ -105,23 +105,25 @@ footer section{
     align-items: center;
 }
 
+footer p{
+    font-size: .8rem;
+}
+
 .video-audio{
-    background-color: yellow;
     width: 15%;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    align-items: center;
 }
 
 .video{
     text-align: center;
+    margin-left: .5rem;
 }
 
 .microfono{
     text-align: center;
-}
-
-.freccia-su{
-    align-items: center;
+    margin-left: .5rem;
 }
 
 .strumenti-bottom{
@@ -129,6 +131,15 @@ footer section{
 }
 
 .call-end{
-    background-color: red;
     width: 15%;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.close-call{
+    height: 100%;
+    width: 45%;
+    background-color:rgba(130, 130, 130, .5);
+    color: red;
+    font-size: 1rem;
 }
