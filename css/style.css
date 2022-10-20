@@ -34,15 +34,16 @@ body{
 /* MAIN */
 main{
     min-width: 27.4rem;
-    height: calc(80vh - 4.5rem);
+    height: 85vh;
+    overflow: auto;
 }
 
 main section{
     width: 90%;
     flex-wrap: wrap;
     padding-top: 4.5rem;
-    
 }
+    
 
 main article{
     width: 12rem;
@@ -97,7 +98,7 @@ footer{
 footer section{
     width: 100%;
     background-color: aqua;
-    height: 10vh;
+    height: 15vh;
 }
 
 
