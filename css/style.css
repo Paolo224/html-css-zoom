@@ -9,6 +9,7 @@
 /* GENERAL */
 body{
     background-color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 .default{
@@ -97,12 +98,17 @@ main article{
 /* FINE STRUMENTI IN ALTO A DESTRA */
 
 /* FOOTER */
+footer{
+    min-width: 27.4rem;
+}
+
 footer section{
     width: 100%;
     background-color: #222222;
     height: 4rem;
     justify-content: space-between;
     align-items: center;
+    min-width: 27.4rem;
 }
 
 footer p{
@@ -127,7 +133,7 @@ footer p{
 }
 
 .strumenti-bottom{
-    background-color: green;
+    align-items: center;
 }
 
 .call-end{
@@ -143,3 +149,14 @@ footer p{
     color: red;
     font-size: 1rem;
 }
+
+.impostazione-strumenti{
+    text-align: center;
+    color: white;
+    margin: 0 .3rem;
+}
+
+[class="fa-solid fa-share-from-square"]{
+    color: green;
+}
+
